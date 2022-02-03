@@ -1,12 +1,12 @@
 :root {
-    --break-city-blue-light : #C5CAD3;
-    --break-city-blue       : #697990;
-    --break-city-blue-dark  : #2D3F63;
-    --break-city-beige      : #E8D9C5;
-    --font-icon             : "Font Awesome 5 Free";
-    --font-icon             : "Font Awesome 5 Free";
-    --font-title            : "Palanquin Dark";
-    --font-text             : "Lato";
+    --break-city-blue-light: #C5CAD3;
+    --break-city-blue: #697990;
+    --break-city-blue-dark: #2D3F63;
+    --break-city-beige: #E8D9C5;
+    --font-icon: "Font Awesome 5 Free";
+    --font-icon: "Font Awesome 5 Free";
+    --font-title: "Palanquin Dark";
+    --font-text: "Lato";
 }
 
 /* ==========================================================================
@@ -14,14 +14,14 @@
    ========================================================================== */
 
 @font-face {
-    font-family : "Palanquin Dark";
-    font-weight : bold;
-    src         : url(../assets/fonts/Palanquin/PalanquinDark-Bold.woff) format("woff"), url(../assets/fonts/Palanquin/PalanquinDark-Bold.woff2) format("woff2"), url(../assets/fonts/Palanquin/PalanquinDark-Bold.otf) format("otf"), url(../assets/fonts/Palanquin/PalanquinDark-Bold.ttf) format("ttf");
+    font-family: "Palanquin Dark";
+    font-weight: bold;
+    src: url(../assets/fonts/Palanquin/PalanquinDark-Bold.woff) format("woff"), url(../assets/fonts/Palanquin/PalanquinDark-Bold.woff2) format("woff2"), url(../assets/fonts/Palanquin/PalanquinDark-Bold.otf) format("otf"), url(../assets/fonts/Palanquin/PalanquinDark-Bold.ttf) format("ttf");
 }
 
 @font-face {
-    font-family : "Lato";
-    src         : url(../assets/fonts/Lato/Lato-Regular.woff) format("woff"), url(../assets/fonts/Lato/Lato-Regular.woff2) format("woff2"), url(../assets/fonts/Lato/Lato-Regular.otf) format("otf"), url(../assets/fonts/Lato/Lato-Regular.ttf) format("ttf");
+    font-family: "Lato";
+    src: url(../assets/fonts/Lato/Lato-Regular.woff) format("woff"), url(../assets/fonts/Lato/Lato-Regular.woff2) format("woff2"), url(../assets/fonts/Lato/Lato-Regular.otf) format("otf"), url(../assets/fonts/Lato/Lato-Regular.ttf) format("ttf");
 }
 
 article,
@@ -34,15 +34,15 @@ hgroup,
 main,
 nav,
 section {
-    display : block;
+    display: block;
 }
 
 .form-group {
-    margin-bottom : 1rem;
+    margin-bottom: 1rem;
 }
 
 a {
-    color : var(--break-city-beige);
+    color: var(--break-city-blue-dark);
 }
 
 
@@ -50,15 +50,81 @@ a {
    Navbar:
    ========================================================================== */
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color : var(--break-city-beige);
+    color: var(--break-city-beige);
 }
 
+.navbar-light .navbar-nav .nav-item .active, .navbar-light .navbar-nav .nav-item .nav-link:hover {
+    color: var(--break-city-beige);
+    border-bottom: 1px solid #e8d9c5;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block
+}
+
+@media (max-width: 991px) {
+    .dropdown>.dropdown-menu {
+        display: block
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-light .navbar-nav .nav-item:last-child {
+        margin-left: 1.2rem;
+    }
+
+    .navbar-light .navbar-nav .nav-item:last-child {
+        background-color: #697990;
+        border-radius: 5px;
+    }
+}
+
+
+/* ==========================================================================
+   Pages:
+   ========================================================================== */
 .bg-beige {
     background-color: var(--break-city-beige);
 }
 
 a {
     color: var(--break-city-beige);
+}
+
+.appart-lien {
+    display: flex;
+}
+
+.img-Puy-De-Dome {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    justify-content: center;
+    display: flex;
+
+}
+
+.royat.jpg {
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+
+.vignette-1-royat.png {
+    justify-content: center;
+
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.vignette-2-royat.png {
+    margin: 1rem;
+    padding: 1rem;
+    display: column;
+}
+
+.photo-section-1 img {
+    object-fit: cover;
 }
 
 .tourisme-main {
@@ -69,7 +135,7 @@ a {
     margin-bottom: 5rem;
 }
 
-.tourisme-main h1{
+.tourisme-main h1 {
     padding: 2rem;
     text-align: center;
     color: var(--break-city-blue-dark);
@@ -78,21 +144,25 @@ a {
     width: 100%;
 }
 
-.intro-redirection a{
+.intro-redirection a {
     color: var(--break-city-blue-dark);
     font-family: 'Palanquin Dark';
     font-size: 1.2rem;
 }
-.title {
+
+.appartements .title {
     background: url(../assets/images/puy-de-dome-pariou.jpg);
     background-size: cover;
     position: relative;
     display: flex;
     justify-content: center;
     color: var(--break-city-blue-dark);
+    font-size: 2.5rem;
+    text-align: center;
 }
 
-h2 {
+
+.appartements h2 {
     font-family: var(--font-title);
     color: var(--break-city-blue);
     text-align: center;
@@ -101,15 +171,13 @@ h2 {
     font-size: 1.7rem;
 }
 
-ul {
+.appartements ul {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     list-style: none;
     color: white;
     padding: 1rem;
     margin-bottom: 0;
-    align-items: center;
 }
 
 .places::before {
@@ -149,6 +217,8 @@ ul {
 .bouton {
     display: flex;
     background-color: var(--break-city-blue-dark);
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
 }
 
 .bouton a {
@@ -160,35 +230,38 @@ ul {
     text-align: center;
     padding: 1.25rem;
 }
-}
+
 .navbar-light .navbar-nav .nav-item .active, .navbar-light .navbar-nav .nav-item .nav-link:hover {
     color: var(--break-city-beige);
     border-bottom: 1px solid #e8d9c5;
 }
 
-.dropdown:hover > .dropdown-menu {
-    display : block
+.dropdown:hover>.dropdown-menu {
+    display: block
 }
 
 @media (min-width: 992px) {
     .navbar-light .navbar-nav .nav-item:last-child {
         margin-left: 1.2rem;
     }
-    
+
     .navbar-light .navbar-nav .nav-item:last-child {
         background-color: #697990;
         border-radius: 5px;
     }
 }
-a {
+
+.appartements a {
     color: var(--break-city-beige);
 }
 
 .mention-legale .titre {
     font-family: Palanquin Dark;
+    text-align: start;
+    margin: 1rem 0;
 }
 
-p, .paragraphe, li {
+p, .paragraphe-ML, li {
     font-size: 1.2rem;
     font-family: Lato;
 
@@ -203,6 +276,154 @@ a {
     background-color: transparent;
     color: #2d3f63;
 }
+
 .paragraphe {
     margin-bottom: 1rem;
+}
+
+.tourisme-chemin {
+    margin-top: 400px;
+}
+
+.tourisme-chemin img {
+    position: absolute;
+    top: -375px;
+    width: 75%;
+    object-fit: cover;
+    width: 850px;
+    height: 500px;
+    z-index: 1;
+}
+
+.chemin-background {
+    background-color: var(--break-city-beige);
+    z-index: 1;
+    width: 80%;
+    padding-bottom: 3rem
+}
+
+.chemin-texte {
+    top: 10%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.cle {
+    position: relative;
+}
+
+.cle::after {
+    position: absolute;
+    content: "";
+    background-image: url("../assets/picto/clef-troubeige.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10%;
+    height: 10%;
+    left: 45%;
+    bottom: -7.5%;
+}
+
+.tourisme-chemin .bg-white {
+    z-index: 3;
+    width: 70%;
+}
+
+.chemin-texte.bg-white h2 {
+    font-family: 'Palanquin Dark';
+    color: var(--break-city-blue);
+    padding: 3rem 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.chemin-texte.bg-white p {
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+}
+
+.appart-données p {
+    margin-bottom: 0;
+}
+
+.tourisme-div1 {
+    padding: 3rem 5rem;
+    background-color: var(--break-city-blue);
+}
+
+.tourisme-div2 {
+    padding: 3rem;
+}
+
+.tourisme-div2 h2 {
+    padding: 3 3rem;
+}
+
+.appartements .container {
+    max-width: 1140px;
+}
+
+.appartements img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ==========================================================================
+   Footer:
+   ========================================================================== */
+footer {
+    background-color: var(--break-city-beige);
+}
+
+footer .footer-contact-item {
+    padding-left: 1.75rem;
+    position: relative;
+    display: flex;
+    margin-bottom: 0.75rem;
+}
+
+footer .footer-contact-item>i {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+footer .footer-logo {
+    display: block;
+    margin: auto;
+}
+
+footer .btn-break-city {
+    background-color: var(--break-city-blue-light);
+    color: var(--break-city-blue);
+    padding: 0 1.5rem;
+    margin-left: 2rem;
+}
+
+footer .btn-break-city-dark {
+    background-color: var(--break-city-blue-dark);
+    color: var(--break-city-beige);
+    padding: 0 1.5rem;
+    margin-right: 2rem;
+}
+
+footer .footer-nav-title {
+    font-family: var(--font-title);
+    text-decoration: underline var(--break-city-blue-dark);
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#copyright .copyright {
+    padding: 0.5rem;
+}
+
+#copyright .copyright a {
+    text-decoration: none;
 }
