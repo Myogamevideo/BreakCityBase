@@ -61,6 +61,42 @@ a {
     color: var(--break-city-beige);
 }
 
+.appart-lien {
+    display: flex;
+}
+
+.img-Puy-De-Dome {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  justify-content: center;
+  display: flex;
+  
+}
+
+.royat.jpg {
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    height: 50%;
+    }
+    
+.vignette-1-royat.png {
+    justify-content: center;
+    
+    padding: 2rem;
+    margin: 2rem;
+    }
+    
+.vignette-2-royat.png {
+    margin: 1rem;
+    padding: 1rem;
+    display: column;
+    }
+  
+ .photo-section-1 img {
+object-fit: cover;
+ }   
+    
 .tourisme-main {
     background-image: url(../assets/images/puy-de-dome-pariou.jpg);
     background-position: 50%;
