@@ -45,7 +45,7 @@ a {
     font-family: Palanquin Dark;
 }
 
-p, .paragraphe {
+p, .paragraphe, li {
     font-size: 1.2rem;
     font-family: Lato;
 
