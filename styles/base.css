@@ -186,6 +186,8 @@ a {
 
 .mention-legale .titre {
     font-family: Palanquin Dark;
+    text-align: start;
+    margin: 1rem 0;
 }
 
 p, .paragraphe-ML, li {
