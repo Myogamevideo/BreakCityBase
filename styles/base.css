@@ -42,7 +42,7 @@ section {
 }
 
 a {
-    color: var(--break-city-beige);
+    color: var(--break-city-blue-dark);
 }
 
 
@@ -53,12 +53,78 @@ a {
     color: var(--break-city-beige);
 }
 
+.navbar-light .navbar-nav .nav-item .active, .navbar-light .navbar-nav .nav-item .nav-link:hover {
+    color: var(--break-city-beige);
+    border-bottom: 1px solid #e8d9c5;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block
+}
+
+@media (max-width: 991px) {
+    .dropdown>.dropdown-menu {
+        display: block
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-light .navbar-nav .nav-item:last-child {
+        margin-left: 1.2rem;
+    }
+
+    .navbar-light .navbar-nav .nav-item:last-child {
+        background-color: #697990;
+        border-radius: 5px;
+    }
+}
+
+
+/* ==========================================================================
+   Pages:
+   ========================================================================== */
 .bg-beige {
     background-color: var(--break-city-beige);
 }
 
 a {
     color: var(--break-city-beige);
+}
+
+.appart-lien {
+    display: flex;
+}
+
+.img-Puy-De-Dome {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    justify-content: center;
+    display: flex;
+
+}
+
+.royat.jpg {
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+
+.vignette-1-royat.png {
+    justify-content: center;
+
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.vignette-2-royat.png {
+    margin: 1rem;
+    padding: 1rem;
+    display: column;
+}
+
+.photo-section-1 img {
+    object-fit: cover;
 }
 
 .tourisme-main {
@@ -84,7 +150,7 @@ a {
     font-size: 1.2rem;
 }
 
-.title {
+.appartements .title {
     background: url(../assets/images/puy-de-dome-pariou.jpg);
     background-size: cover;
     position: relative;
@@ -92,6 +158,7 @@ a {
     justify-content: center;
     color: var(--break-city-blue-dark);
     font-size: 2.5rem;
+    text-align: center;
 }
 
 
@@ -164,7 +231,6 @@ a {
     padding: 1.25rem;
 }
 
-
 .navbar-light .navbar-nav .nav-item .active, .navbar-light .navbar-nav .nav-item .nav-link:hover {
     color: var(--break-city-beige);
     border-bottom: 1px solid #e8d9c5;
@@ -219,7 +285,7 @@ a {
     margin-top: 360px;
 }
 
-.tourisme-chemin img{
+.tourisme-chemin img {
     position: absolute;
     top: -375px;
     width: 85%;
@@ -268,7 +334,7 @@ a {
 
 .chemin-texte.bg-white h2 {
     font-family: 'Palanquin Dark';
-    color:var(--break-city-blue);
+    color: var(--break-city-blue);
     padding: 3rem 1rem;
     margin-bottom: 0.5rem;
 }
@@ -301,4 +367,75 @@ a {
 .tourisme-div3 img{
     height: 100%;
     object-fit: cover;
+    padding: 3 3rem;
+}
+
+.appartements .container {
+    max-width: 1140px;
+}
+
+.appartements img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ==========================================================================
+   Footer:
+   ========================================================================== */
+footer {
+    background-color: var(--break-city-beige);
+}
+
+footer .footer-contact-item {
+    padding-left: 1.75rem;
+    position: relative;
+    display: flex;
+    margin-bottom: 0.75rem;
+}
+
+footer .footer-contact-item>i {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+footer .footer-logo {
+    display: block;
+    margin: auto;
+}
+
+footer .btn-break-city {
+    background-color: var(--break-city-blue-light);
+    color: var(--break-city-blue);
+    padding: 0 1.5rem;
+    margin-left: 2rem;
+}
+
+footer .btn-break-city-dark {
+    background-color: var(--break-city-blue-dark);
+    color: var(--break-city-beige);
+    padding: 0 1.5rem;
+    margin-right: 2rem;
+}
+
+footer .footer-nav-title {
+    font-family: var(--font-title);
+    text-decoration: underline var(--break-city-blue-dark);
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#copyright .copyright {
+    padding: 0.5rem;
+}
+
+#copyright .copyright a {
+    text-decoration: none;
 }
