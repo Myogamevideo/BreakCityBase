@@ -263,17 +263,31 @@ a {
     width: 70%;
 }
 
-.bg-white h2 {
+.chemin-texte.bg-white h2 {
     font-family: 'Palanquin Dark';
     color:var(--break-city-blue);
     padding: 3rem 1rem;
     margin-bottom: 0.5rem;
 }
 
-.bg-white p {
+.chemin-texte.bg-white p {
     padding: 0 2rem;
     margin-bottom: 1rem;
 }
+
 .appart-données p {
     margin-bottom: 0;
+}
+
+.tourisme-div1 {
+    padding: 3rem 5rem;
+    background-color: var(--break-city-blue);
+}
+
+.tourisme-div2 {
+    padding: 3rem;
+}
+
+.tourisme-div2 h2 {
+    padding: 3 3rem;
 }
