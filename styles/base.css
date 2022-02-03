@@ -37,7 +37,7 @@ section {
     margin-bottom: 1rem;
 }
 
-a{
+a {
     color: var(--break-city-beige);
 }
 
@@ -45,16 +45,21 @@ a{
     font-family: Palanquin Dark;
 }
 
-.p {
+p, .paragraphe {
     font-size: 1.2rem;
-    margin: 1.5rem;
-    
+    font-family: Lato;
+
 }
+
 .row {
     color: #2d3f63;
 }
+
 a {
     text-decoration: none;
     background-color: transparent;
     color: #2d3f63;
+}
+.paragraphe {
+    margin-bottom: 1rem;
 }
