@@ -1,23 +1,27 @@
 :root {
-    --break-city-blue-light: #C5CAD3;
-    --break-city-blue: #697990;
-    --break-city-blue-dark: #2D3F63;
-    --break-city-beige: #E8D9C5;
-    --font-icon: 'Font Awesome 5 Free';
-    --font-icon: 'Font Awesome 5 Free';
-    --font-title: 'Palanquin Dark';
-    --font-text: 'Lato';
+    --break-city-blue-light : #C5CAD3;
+    --break-city-blue       : #697990;
+    --break-city-blue-dark  : #2D3F63;
+    --break-city-beige      : #E8D9C5;
+    --font-icon             : "Font Awesome 5 Free";
+    --font-icon             : "Font Awesome 5 Free";
+    --font-title            : "Palanquin Dark";
+    --font-text             : "Lato";
+}
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+
+@font-face {
+    font-family : "Palanquin Dark";
+    font-weight : bold;
+    src         : url(../assets/fonts/Palanquin/PalanquinDark-Bold.woff) format("woff"), url(../assets/fonts/Palanquin/PalanquinDark-Bold.woff2) format("woff2"), url(../assets/fonts/Palanquin/PalanquinDark-Bold.otf) format("otf"), url(../assets/fonts/Palanquin/PalanquinDark-Bold.ttf) format("ttf");
 }
 
 @font-face {
-    font-family: "Palanquin Dark";
-    font-weight: bold;
-    src: url(../assets/fonts/Palanquin/PalanquinDark-Bold.woff) format("woff"), url(../assets/fonts/Palanquin/PalanquinDark-Bold.woff2) format("woff2"), url(../assets/fonts/Palanquin/PalanquinDark-Bold.otf) format("otf"), url(../assets/fonts/Palanquin/PalanquinDark-Bold.ttf) format("ttf");
-}
-
-@font-face {
-    font-family: "Lato";
-    src: url(../assets/fonts/Lato/Lato-Regular.woff) format("woff"), url(../assets/fonts/Lato/Lato-Regular.woff2) format("woff2"), url(../assets/fonts/Lato/Lato-Regular.otf) format("otf"), url(../assets/fonts/Lato/Lato-Regular.ttf) format("ttf");
+    font-family : "Lato";
+    src         : url(../assets/fonts/Lato/Lato-Regular.woff) format("woff"), url(../assets/fonts/Lato/Lato-Regular.woff2) format("woff2"), url(../assets/fonts/Lato/Lato-Regular.otf) format("otf"), url(../assets/fonts/Lato/Lato-Regular.ttf) format("ttf");
 }
 
 article,
@@ -30,13 +34,175 @@ hgroup,
 main,
 nav,
 section {
-    display: block;
+    display : block;
 }
 
 .form-group {
-    margin-bottom: 1rem;
+    margin-bottom : 1rem;
 }
 
-a{
+a {
+    color : var(--break-city-beige);
+}
+
+
+/* ==========================================================================
+   Navbar:
+   ========================================================================== */
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color : var(--break-city-beige);
+}
+
+.bg-beige {
+    background-color: var(--break-city-beige);
+}
+
+a {
     color: var(--break-city-beige);
+}
+
+.tourisme-main {
+    background-image: url(../assets/images/puy-de-dome-pariou.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5rem;
+}
+
+.tourisme-main h1{
+    padding: 2rem;
+    text-align: center;
+    color: var(--break-city-blue-dark);
+    font-size: 42px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.intro-redirection a{
+    color: var(--break-city-blue-dark);
+    font-family: 'Palanquin Dark';
+    font-size: 1.2rem;
+}
+.title {
+    background: url(../assets/images/puy-de-dome-pariou.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: var(--break-city-blue-dark);
+}
+
+h2 {
+    font-family: var(--font-title);
+    color: var(--break-city-blue);
+    text-align: center;
+    margin: 3rem;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.places::before {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -40px;
+    content: "";
+    background-image: url(../assets/svg/bedblanc.svg);
+    background-size: cover;
+}
+
+.appart-données {
+    background-color: #697990;
+}
+
+.surface::before {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -40px;
+    content: "";
+    background-image: url(../assets/svg/metre.svg);
+    background-size: cover;
+}
+
+
+.position::before {
+    position: absolute;
+    content: "\f3c5";
+    font-weight: 900;
+    font-size: 1.2rem;
+    font-family: Font Awesome\ 5 Free;
+    left: -25px;
+}
+
+.bouton {
+    display: flex;
+    background-color: var(--break-city-blue-dark);
+}
+
+.bouton a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 1.25rem;
+}
+}
+.navbar-light .navbar-nav .nav-item .active, .navbar-light .navbar-nav .nav-item .nav-link:hover {
+    color: var(--break-city-beige);
+    border-bottom: 1px solid #e8d9c5;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display : block
+}
+
+@media (min-width: 992px) {
+    .navbar-light .navbar-nav .nav-item:last-child {
+        margin-left: 1.2rem;
+    }
+    
+    .navbar-light .navbar-nav .nav-item:last-child {
+        background-color: #697990;
+        border-radius: 5px;
+    }
+}
+a {
+    color: var(--break-city-beige);
+}
+
+.mention-legale .titre {
+    font-family: Palanquin Dark;
+}
+
+p, .paragraphe, li {
+    font-size: 1.2rem;
+    font-family: Lato;
+
+}
+
+.row {
+    color: #2d3f63;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #2d3f63;
+}
+.paragraphe {
+    margin-bottom: 1rem;
 }
