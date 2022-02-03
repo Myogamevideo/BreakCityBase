@@ -239,6 +239,22 @@ footer .footer-contact-item>i {
     top: 0;
 }
 
+footer .footer-logo {
+    display: block;
+    margin: auto;
+}
+
+footer .btn-break-city {
+    background-color: var(--break-city-blue-light);
+    color: var(--break-city-blue);
+    padding: 0 1.5rem;
+}
+footer .btn-break-city-dark {
+    background-color: var(--break-city-blue-dark);
+    color: var(--break-city-beige);
+    padding: 0 1.5rem;
+}
+
 #copyright .copyright {
     padding: 0.5rem;
 }
