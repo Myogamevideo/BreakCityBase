@@ -215,7 +215,79 @@ a {
     margin-bottom: 1rem;
 }
 
+.tourisme-chemin {
+    margin-top: 400px;
+}
+
+.tourisme-chemin img{
+    position: absolute;
+    top: -375px;
+    width: 75%;
+    object-fit: cover;
+    width: 850px;
+    height: 500px;
+    z-index: 1;
+}
+
+.chemin-background {
+    background-color: var(--break-city-beige);
+    z-index: 1;
+    width: 80%;
+    padding-bottom: 3rem
+}
+
+.chemin-texte {
+    top: 10%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.cle {
+    position: relative;
+}
+
+.cle::after {
+    position: absolute;
+    content: "";
+    background-image: url("../assets/picto/clef-troubeige.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10%;
+    height: 10%;
+    left: 45%;
+    bottom: -7.5%;
+}
+
+.tourisme-chemin .bg-white {
+    z-index: 3;
+    width: 70%;
+}
+
+.chemin-texte.bg-white h2 {
+    font-family: 'Palanquin Dark';
+    color:var(--break-city-blue);
+    padding: 3rem 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.chemin-texte.bg-white p {
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+}
 
 .appart-données p {
     margin-bottom: 0;
+}
+
+.tourisme-div1 {
+    padding: 3rem 5rem;
+    background-color: var(--break-city-blue);
+}
+
+.tourisme-div2 {
+    padding: 3rem;
+}
+
+.tourisme-div2 h2 {
+    padding: 3 3rem;
 }
