@@ -248,11 +248,24 @@ footer .btn-break-city {
     background-color: var(--break-city-blue-light);
     color: var(--break-city-blue);
     padding: 0 1.5rem;
+    margin-left: 2rem;
 }
 footer .btn-break-city-dark {
     background-color: var(--break-city-blue-dark);
     color: var(--break-city-beige);
     padding: 0 1.5rem;
+    margin-right: 2rem;
+}
+
+footer .footer-nav-title {
+    font-family: var(--font-title);
+    text-decoration: underline var(--break-city-blue-dark);
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 #copyright .copyright {
