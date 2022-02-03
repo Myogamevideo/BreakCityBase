@@ -40,3 +40,21 @@ section {
 a{
     color: var(--break-city-beige);
 }
+
+.mention-legale .titre {
+    font-family: Palanquin Dark;
+}
+
+.p {
+    font-size: 1.2rem;
+    margin: 1.5rem;
+    
+}
+.row {
+    color: #2d3f63;
+}
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #2d3f63;
+}
