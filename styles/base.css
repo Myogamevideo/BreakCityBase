@@ -40,3 +40,18 @@ section {
 a{
     color: var(--break-city-beige);
 }
+
+.tourisme-main h1{
+    background-image: url(../assets/images/puy-de-dome-pariou.jpg);
+    background-position: 50%;
+    padding: 2rem;
+    text-align: center;
+    background-repeat: no-repeat;
+    color: var(--break-city-blue-dark);
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.tourisme-intro p {
+    
+}
