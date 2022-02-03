@@ -63,6 +63,9 @@ a {
 
 .appart-lien {
     display: flex;
+    justify-content: right;
+    text-align: right;
+    
 }
 
 .img-Puy-De-Dome {
@@ -96,6 +99,13 @@ a {
  .photo-section-1 img {
 object-fit: cover;
  }   
+
+ .container-button {
+     justify-content: center;
+     display: flex;
+     margin-bottom: 3rem;
+     
+ }
     
 .tourisme-main {
     background-image: url(../assets/images/puy-de-dome-pariou.jpg);
