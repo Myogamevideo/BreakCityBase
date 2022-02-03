@@ -206,3 +206,39 @@ a {
 .paragraphe {
     margin-bottom: 1rem;
 }
+
+.tourisme-chemin {
+    margin-top: 400px;
+}
+
+.tourisme-chemin img{
+    position: absolute;
+    left: 17.5%;
+    top: -375px;
+    width: 75%;
+    object-fit: cover;
+    width: 850px;
+    height: 500px;
+    z-index: 1;
+}
+
+.chemin-background {
+    background-color: var(--break-city-beige);
+    z-index: 1;
+    height: 400px;
+}
+
+.chemin-texte {
+    top: 10%;
+}
+
+.bg-white {
+    z-index: 3;
+    width: 800px;
+    left: 15.75%;
+}
+
+.bg-white h2 {
+    font-family: 'Palanquin Dark';
+    color:var(--break-city-blue);
+}
