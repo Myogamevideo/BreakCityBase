@@ -46,6 +46,7 @@ a{
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 5rem;
 }
 
 .tourisme-main h1{
@@ -55,4 +56,10 @@ a{
     font-size: 42px;
     font-weight: 700;
     width: 100%;
+}
+
+.intro-redirection a{
+    color: var(--break-city-blue-dark);
+    font-family: 'Palanquin Dark';
+    font-size: 1.2rem;
 }
