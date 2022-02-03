@@ -224,6 +224,21 @@ footer {
     background-color: var(--break-city-beige);
 }
 
+footer .footer-contact-item {
+    padding-left: 1.75rem;
+    position: relative;
+    display: flex;
+    margin-bottom: 0.75rem;
+}
+footer .footer-contact-item>i {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
 #copyright .copyright {
     padding: 0.5rem;
 }
