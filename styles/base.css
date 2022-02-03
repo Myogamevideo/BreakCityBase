@@ -42,7 +42,7 @@ section {
 }
 
 a {
-    color : var(--break-city-beige);
+    color : var(--break-city-blue-dark);
 }
 
 
@@ -83,4 +83,11 @@ a {
    ========================================================================== */
 footer {
     background-color: var(--break-city-beige);
+}
+
+#copyright .copyright {
+    padding: 0.5rem;
+}
+#copyright .copyright a {
+    text-decoration: none;
 }
