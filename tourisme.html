@@ -16,61 +16,168 @@
 
 <body>
     <header>
-        <ul>
-            <li>
-                <a href="./index.html">Accueil</a>
-            </li>
-            <li>
-                <a href="./appartements.html">Appartement</a>
-                <ul>
-                    <li>
-                        <a href="./appartements/chu.html">CHU</a>
-                    </li>
-                    <li>
-                        <a href="./appartements/gare.html">Gare</a>
-                    </li>
-                    <li>
-                        <a href="./appartements/oradou.html">Oradou</a>
-                    </li>
-                    <li>
-                        <a href="./appartements/royat.html">Royat</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="./tourisme.html">Tourisme</a>
-            </li>
-            <li>
-                <a href="./contact.html">Contact</a>
-            </li>
-            <li>
-                <a href="./contact.html">Réserver</a>
-            </li>
-        </ul>
+        <nav class="navbar navbar-expand-lg navbar-light fw-bold bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img alt="logo" height="80" src="assets/images/logo-cle-beige.png">
+                </a>
+                <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                        class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"
+                        type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav w-100 mb-2 mb-lg-0 d-flex justify-content-end">
+                        <li class="nav-item">
+                            <a aria-current="page" class="nav-link active" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/appartements.html">
+                                Appartements
+                            </a>
+                            <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+                                <a class="dropdown-item" href="/appartements/gare.html">
+                                    Le Break City Gare
+                                </a>
+                                <a class="dropdown-item" href="/appartements/royat.html">
+                                    Le Break City Royat
+                                </a>
+                                <a class="dropdown-item" href="/appartements/oradou.html">
+                                    Le break City Oradou
+                                </a>
+                                <a class="dropdown-item" href="/appartements/chu.html">
+                                    Le break City CHU</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./tourisme.html">Tourisme</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item booked">
+                            <a class="nav-link" href="#">
+                                Réserver
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <section class="tourisme-main container">
-        <h1 class="tourisme-title">Au cœurs du parc naturel régional des volcans <br> d'Auvergne</h1>
-    </section>
-    <section class="tourisme-intro container mt-5">
-        <div>
-            <p class="fs-5 text-justify mx-3">En visite en Auvergne pour un court ou long séjour, les activités à
-                Clermont Ferrand et ses alentours ne manquent pas. Plutôt tourné vers les activités de pleine nature ?
-                Vous pouvez partir très facilement randonner dans le parc des volcans d'Auvergne pour y découvrir sa
-                faune et sa flore, mais aussi ses lacs et sa pierre rouge volcanique. Attiré par la culture et le
-                patrimoine ? Clermont-Ferrand regorge également de lieux incontournables à ne pas louper ! N'attendez
-                plus pour partir à la découverte de la ville et ses alentours, pour en savoir plus et organiser votre
-                séjour, vous pouvez consulter le site de l'office de tourisme de Clermont-Ferrand.</p>
-        </div>
-        <div class="intro-redirection text-center mt-5">
-            <a class="fw-bolder text-decoration-none" href="./tourisme.html">Office du tourisme <i class="fas fa-arrow-right"></i></a>
-        </div>
-    </section>
+    <div class="container">
+        <section class="tourisme-main ">
+            <h1 class="tourisme-title">Au cœurs du parc naturel régional des volcans <br> d'Auvergne</h1>
+        </section>
+        <section class="tourisme-intro mt-5">
+            <div>
+                <p class="fs-5 text-justify mx-3">En visite en Auvergne pour un court ou long séjour, les activités à
+                    Clermont Ferrand et ses alentours ne manquent pas. Plutôt tourné vers les activités de pleine nature
+                    ?
+                    Vous pouvez partir très facilement randonner dans le parc des volcans d'Auvergne pour y découvrir sa
+                    faune et sa flore, mais aussi ses lacs et sa pierre rouge volcanique. Attiré par la culture et le
+                    patrimoine ? Clermont-Ferrand regorge également de lieux incontournables à ne pas louper !
+                    N'attendez
+                    plus pour partir à la découverte de la ville et ses alentours, pour en savoir plus et organiser
+                    votre
+                    séjour, vous pouvez consulter le site de l'office de tourisme de Clermont-Ferrand.</p>
+            </div>
+            <div class="intro-redirection text-center mt-5">
+                <a class="fw-bolder text-decoration-none" href="./tourisme.html">Office du tourisme <i
+                        class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+        <section class="tourisme-chemin">
+            <div>
+                <div class="position-relative mt-3">
+                    <img class="" src="assets\images\chemin.jpg" alt="chemin">
+                    <div class="chemin-background py-5">
+                        <div class="chemin-texte bg-white m-5 position-relative p-2">
+                            <h2 class="text-center fs-2 p-3">Les volcans d'Auvergne, un lieu récemment classé au patrimoine de l'UNESCO (2018)</h2>
+                            <p>Aux portes de Clermont, vous aurez accès au parc des volcans, un site géologique
+                                exceptionnel. Le Puy-de-Dôme, surplombant la ville, en est le principal. Vous pourrez
+                                d'ailleurs monter jusqu'à son sommet (à pied ou par le train à crémaillère) pour
+                                contempler la chaîne des Puys, la plaine de la Limagne, le massif du Sancy, les monts du
+                                Forez et même le plateau de Millevaches. Envie d'en savoir plus sur l'histoire de nos
+                                volcans ? Vulcania et le volcan de l'Emptegy sont des parcs d'exploration pour réunir
+                                petits et grands autour de ce thème !</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
-    <footer>
+    <footer class="pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-contact-list">
+                        <div class="text-blue d-flex footer-contact-item">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <span>
+                                BreakCity
+                                <br>
+                                Clermont-Ferrand
+                            </span>
+                        </div>
+                        <div class="text-blue d-flex footer-contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            +33 7 49 09 72 48
+                        </div>
+                        <div class="text-blue d-flex footer-contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:contact@break-city.fr">
+                                contact@break-city.fr
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-10">
+                            <img alt="break City" class="footer-logo"
+                                 src="/assets/images/logo-cle-blanche-footer.png" title="break City">
+
+                            <div class="row mt-4">
+                                <div class="col-6 d-flex justify-content-center p-0">
+                                    <a class="btn btn-break-city" href="/contact.html">
+                                        Réserver
+                                    </a>
+                                </div>
+                                <div class="col-6 d-flex justify-content-center p-0">
+                                    <a class="btn btn-break-city-dark" href="/contact.html">
+                                        Contact
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row justify-content-center">
+                        <h3 class="footer-nav-title pl-5 mb-4">Navigation</h3>
+                    </div>
+                    <div class="row">
+                        <ul>
+                            <li><a href="/index.html">Accueil</a></li>
+                            <li><a href="/appartements.html">Appartements</a></li>
+                            <li><a href="/contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
+
     <!-- COPYRIGHT -->
-    <div class="copyright"> Copyright © Drosalys 2020, tous droits réservés - <a href="./mentions-legales.html">Mentions
-            légales</a> | <span id="rgpd-footer" class="cursor-pointer">RGPD</span></div>
+    <section id="copyright">
+        <div class="copyright d-flex justify-content-center">
+            Copyright © Drosalys 2020, tous droits réservés &dash; <a class="mx-1"
+                                                                      href="./mentions-legales.html">Mentions
+            légales</a> | <span class="mx-1 cursor-pointer" id="rgpd-footer">RGPD</span>
+        </div>
+    </section>
 
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

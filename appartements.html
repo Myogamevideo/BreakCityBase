@@ -16,81 +16,264 @@
 
 <body>
     <header>
-        <ul>
-            <li>
-                <a href="./index.html">Accueil</a>
-            </li>
-            <li>
-                <a href="./appartements.html">Appartement</a>
-                <ul>
-                    <li>
-                        <a href="./appartements/chu.html">CHU</a>
-                    </li>
-                    <li>
-                        <a href="./appartements/gare.html">Gare</a>
-                    </li>
-                    <li>
-                        <a href="./appartements/oradou.html">Oradou</a>
-                    </li>
-                    <li>
-                        <a href="./appartements/royat.html">Royat</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="./tourisme.html">Tourisme</a>
-            </li>
-            <li>
-                <a href="./contact.html">Contact</a>
-            </li>
-            <li>
-                <a href="./contact.html">Réserver</a>
-            </li>
-        </ul>
-    </header>
-    <h2 class="title container p-5">
-        Nos appartements
-    </h2>
-    <div class="liste-appartements align-content-center pt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-7 px-0">
-                    <img class="img-fluid" src="assets/appartement-gare/salon-gare.jpg" alt="">
-                </div>
-                <div class="col-5 bg-beige">
-                    <h2>Le Break City Gare</h2>
-                    <p>
-                        Le Break City Gare est situé à 10 minutes de la place Jaude, du centre ville, du jardin Lecoq et
-                        des
-                        musées. <br> Venez découvrir Clermont-Ferrand dans notre appartement industriel et profitez de
-                        toutes les commodités (bus, commerces...) juste à coté.
-                    </p>
-                </div>
-                <div class="appart-données col-7">
-                    <ul>
-                        <li class="places position-relative">
-                            <p>2 voyageurs</p>
+        <nav class="navbar navbar-expand-lg navbar-light fw-bold bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img alt="logo" height="80" src="assets/images/logo-cle-beige.png">
+                </a>
+                <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                        class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"
+                        type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav w-100 mb-2 mb-lg-0 d-flex justify-content-end">
+                        <li class="nav-item">
+                            <a aria-current="page" class="nav-link active" href="#">Accueil</a>
                         </li>
-                        <li class="surface position-relative">
-                            <p>25m²</p>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/appartements.html">
+                                Appartements
+                            </a>
+                            <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+                                <a class="dropdown-item" href="/appartements/gare.html">
+                                    Le Break City Gare
+                                </a>
+                                <a class="dropdown-item" href="/appartements/royat.html">
+                                    Le Break City Royat
+                                </a>
+                                <a class="dropdown-item" href="/appartements/oradou.html">
+                                    Le break City Oradou
+                                </a>
+                                <a class="dropdown-item" href="/appartements/chu.html">
+                                    Le break City CHU</a>
+                            </div>
                         </li>
-                        <li class="position position-relative">
-                            <p>Centre Ville</p>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./tourisme.html">Tourisme</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item booked">
+                            <a class="nav-link" href="#">
+                                Réserver
+                            </a>
                         </li>
                     </ul>
                 </div>
-                <div class="bouton col-5">
-                    <a href="#">Découvrir</a>
+            </div>
+        </nav>
+    </header>
+    <section class="appartements">
+        <div class="container">
+            <h2 class="title p-5 m-0 align-items-center">
+                Nos appartements
+            </h2>
+        </div>
+        <div class="liste-appartements align-content-center pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 px-0 col-12">
+                        <img class="img-fluid" src="assets/appartement-gare/salon-gare.jpg" alt="">
+                    </div>
+                    <div class="col-lg-5 bg-beige col-12">
+                        <h2>Le Break City Gare</h2>
+                        <p>
+                            Le Break City Gare est situé à 10 minutes de la place Jaude, du centre ville, du jardin
+                            Lecoq et
+                            des
+                            musées. <br> Venez découvrir Clermont-Ferrand dans notre appartement industriel et profitez
+                            de
+                            toutes les commodités (bus, commerces...) juste à coté.
+                        </p>
+                    </div>
+                    <div class="appart-données col-lg-7 col-12">
+                        <ul>
+                            <li class="places position-relative">
+                                <p>2 voyageurs</p>
+                            </li>
+                            <li class="surface position-relative">
+                                <p>25m²</p>
+                            </li>
+                            <li class="position position-relative">
+                                <p>Centre Ville</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bouton col-lg-5 col-12">
+                        <a href="appartements/gare.html">Découvrir</a>
+                    </div>
                 </div>
             </div>
-
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-lg-5 bg-beige col-12">
+                        <h2>Le Break City Royat</h2>
+                        <p>
+                            Le Break City Gare est situé à 10 minutes de la place Jaude, du centre ville, du jardin
+                            Lecoq et
+                            des
+                            musées. <br> Venez découvrir Clermont-Ferrand dans notre appartement industriel et profitez
+                            de
+                            toutes les commodités (bus, commerces...) juste à coté.
+                        </p>
+                    </div>
+                    <div class="col-lg-7 px-0 col-12">
+                        <img class="img-fluid" src="assets/appartement-royat/royat.jpg" alt="">
+                    </div>
+                    <div class="bouton col-lg-5 col-12">
+                        <a href="appartements/royat.html">Découvrir</a>
+                    </div>
+                    <div class="appart-données col-lg-7 col-12">
+                        <ul>
+                            <li class="places position-relative">
+                                <p>2 voyageurs</p>
+                            </li>
+                            <li class="surface position-relative">
+                                <p>28m²</p>
+                            </li>
+                            <li class="position position-relative">
+                                <p>Royat</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-lg-7 px-0 col-12">
+                        <img class="img-fluid" src="assets/appartement-gare/salon-gare.jpg" alt="">
+                    </div>
+                    <div class="col-lg-5 bg-beige col-12">
+                        <h2>Le break City Oradou</h2>
+                        <p>
+                            Le break City Oradou au charme cosy vous fera vous sentir comme chez vous. L’appartement est
+                            proche du centre ville mais aussi du Zenith d’Auvergne pour les adeptes de spectacle. Bien
+                            desservi, le bus s’arrête au pied de l’appartement pour un séjour en toute tranquillité.
+                        </p>
+                    </div>
+                    <div class="appart-données col-lg-7 col-12">
+                        <ul>
+                            <li class="places position-relative">
+                                <p>4 voyageurs</p>
+                            </li>
+                            <li class="surface position-relative">
+                                <p>55m²</p>
+                            </li>
+                            <li class="position position-relative">
+                                <p>Centre Ville</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bouton col-lg-5 col-12">
+                        <a href="appartements/oradou.html">Découvrir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-lg-5 bg-beige col-12">
+                        <h2>Le Break City CHU</h2>
+                        <p>
+                            Le Break City CHU est situé entre le CHU Gabriel Montpied et les Cézeaux. Appartement haut
+                            de gamme composé de 3 chambres, venez vous ressourcer en famille pour découvrir notre belle
+                            région.
+                        </p>
+                    </div>
+                    <div class="col-lg-7 px-0 col-12">
+                        <img class="img-fluid" src="assets/appartement-royat/royat.jpg" alt="">
+                    </div>
+                    <div class="bouton col-lg-5 col-12">
+                        <a href="appartements/chu.html">Découvrir</a>
+                    </div>
+                    <div class="appart-données col-lg-7 col-12">
+                        <ul>
+                            <li class="places position-relative">
+                                <p>6 voyageurs</p>
+                            </li>
+                            <li class="surface position-relative">
+                                <p>68m²</p>
+                            </li>
+                            <li class="position position-relative">
+                                <p>Clermont-Ferrand</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <footer>
+    </section>
+    <footer class="pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-contact-list">
+                        <div class="text-blue d-flex footer-contact-item">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <span>
+                                BreakCity
+                                <br>
+                                Clermont-Ferrand
+                            </span>
+                        </div>
+                        <div class="text-blue d-flex footer-contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            +33 7 49 09 72 48
+                        </div>
+                        <div class="text-blue d-flex footer-contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:contact@break-city.fr">
+                                contact@break-city.fr
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-10">
+                            <img alt="break City" class="footer-logo"
+                                 src="/assets/images/logo-cle-blanche-footer.png" title="break City">
+
+                            <div class="row mt-4">
+                                <div class="col-6 d-flex justify-content-center p-0">
+                                    <a class="btn btn-break-city" href="/contact.html">
+                                        Réserver
+                                    </a>
+                                </div>
+                                <div class="col-6 d-flex justify-content-center p-0">
+                                    <a class="btn btn-break-city-dark" href="/contact.html">
+                                        Contact
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row justify-content-center">
+                        <h3 class="footer-nav-title pl-5 mb-4">Navigation</h3>
+                    </div>
+                    <div class="row">
+                        <ul>
+                            <li><a href="/index.html">Accueil</a></li>
+                            <li><a href="/appartements.html">Appartements</a></li>
+                            <li><a href="/contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
+
     <!-- COPYRIGHT -->
-    <div class="copyright"> Copyright © Drosalys 2020, tous droits réservés - <a href="./mentions-legales.html">Mentions
-            légales</a> | <span id="rgpd-footer" class="cursor-pointer">RGPD</span></div>
+    <section id="copyright">
+        <div class="copyright d-flex justify-content-center">
+            Copyright © Drosalys 2020, tous droits réservés &dash; <a class="mx-1"
+                                                                      href="./mentions-legales.html">Mentions
+            légales</a> | <span class="mx-1 cursor-pointer" id="rgpd-footer">RGPD</span>
+        </div>
+    </section>
 
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
