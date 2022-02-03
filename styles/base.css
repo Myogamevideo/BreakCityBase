@@ -84,7 +84,7 @@ a {
     font-size: 1.2rem;
 }
 
-.title {
+.appartements .title {
     background: url(../assets/images/puy-de-dome-pariou.jpg);
     background-size: cover;
     position: relative;
@@ -92,6 +92,7 @@ a {
     justify-content: center;
     color: var(--break-city-blue-dark);
     font-size: 2.5rem;
+    text-align: center;
 }
 
 
@@ -216,4 +217,13 @@ a {
 
 .appart-données p {
     margin-bottom: 0;
+}
+
+.appartements .container {
+    max-width: 1140px;
+}
+
+.appartements img {
+    width: 100%;
+    object-fit: cover;
 }
