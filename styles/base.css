@@ -37,6 +37,16 @@ section {
     margin-bottom: 1rem;
 }
 
-a{
+a {
     color: var(--break-city-beige);
+}
+
+.title {
+    background: url(../assets/images/puy-de-dome-pariou.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #2D3F63;
+    font-family: var(--font-title);
 }
