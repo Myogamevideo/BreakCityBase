@@ -61,6 +61,11 @@ a {
 .dropdown:hover > .dropdown-menu {
     display : block
 }
+@media (max-width: 991px) {
+    .dropdown > .dropdown-menu {
+        display : block
+    }
+}
 
 @media (min-width: 992px) {
     .navbar-light .navbar-nav .nav-item:last-child {
@@ -71,4 +76,11 @@ a {
         background-color: #697990;
         border-radius: 5px;
     }
+}
+
+/* ==========================================================================
+   Footer:
+   ========================================================================== */
+footer {
+    background-color: var(--break-city-beige);
 }
