@@ -160,7 +160,7 @@ ul {
     text-align: center;
     padding: 1.25rem;
 }
-}
+
 .navbar-light .navbar-nav .nav-item .active, .navbar-light .navbar-nav .nav-item .nav-link:hover {
     color: var(--break-city-beige);
     border-bottom: 1px solid #e8d9c5;
@@ -225,7 +225,7 @@ a {
 .chemin-background {
     background-color: var(--break-city-beige);
     z-index: 1;
-    height: 400px;
+    margin: 0 150px 0 150px;
 }
 
 .chemin-texte {
@@ -235,10 +235,17 @@ a {
 .bg-white {
     z-index: 3;
     width: 800px;
-    left: 15.75%;
+    left: 5.5%;
 }
 
 .bg-white h2 {
     font-family: 'Palanquin Dark';
     color:var(--break-city-blue);
+    padding: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.bg-white p {
+    padding: 0 3rem;
+    margin-bottom: 1rem;
 }
