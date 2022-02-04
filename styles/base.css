@@ -428,6 +428,26 @@ a {
     object-fit: cover;
 }
 
+@media (max-width: 768px) {
+    .cle::after{
+        display: none;
+    }
+    .patrimoine-activite-chemin .bg-white {
+         width: 100%;
+    }
+    .patrimoine-texte, .activite-texte {
+        padding: 0 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .patrimoine-activite-div1 {
+        padding: 1rem 1rem;
+    }
+    .activite-col {
+        height: auto;
+    }
+ }
+
 /* ==========================================================================
    Footer:
    ========================================================================== */
