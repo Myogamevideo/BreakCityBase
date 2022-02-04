@@ -643,3 +643,12 @@ footer ul {
 .btn {
     filter: url(#dilate);
 }
+
+@media screen and (max-width: 900px) {
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
