@@ -93,6 +93,9 @@ a {
 
 .appart-lien {
     display: flex;
+    justify-content: right;
+    text-align: right;
+    
 }
 
 .img-Puy-De-Dome {
@@ -121,12 +124,19 @@ a {
     margin: 1rem;
     padding: 1rem;
     display: column;
-}
+    }
+  
+ .photo-section-1 img {
+object-fit: cover;
+ }   
 
-.photo-section-1 img {
-    object-fit: cover;
-}
-
+ .container-button {
+     justify-content: center;
+     display: flex;
+     margin-bottom: 3rem;
+     
+ }
+    
 .tourisme-main {
     background-image: url(../assets/images/puy-de-dome-pariou.jpg);
     background-position: 50%;
@@ -150,7 +160,7 @@ a {
     font-size: 1.2rem;
 }
 
-.appartements .title {
+.title {
     background: url(../assets/images/puy-de-dome-pariou.jpg);
     background-size: cover;
     position: relative;
@@ -282,15 +292,14 @@ a {
 }
 
 .tourisme-chemin {
-    margin-top: 400px;
+    margin-top: 360px;
 }
 
 .tourisme-chemin img {
     position: absolute;
     top: -375px;
-    width: 75%;
+    width: 85%;
     object-fit: cover;
-    width: 850px;
     height: 500px;
     z-index: 1;
 }
@@ -298,7 +307,7 @@ a {
 .chemin-background {
     background-color: var(--break-city-beige);
     z-index: 1;
-    width: 80%;
+    width: 100%;
     padding-bottom: 3rem
 }
 
@@ -315,18 +324,22 @@ a {
 .cle::after {
     position: absolute;
     content: "";
-    background-image: url("../assets/picto/clef-troubeige.png");
+    background-image: url(../assets/picto/clef-troubeige.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 10%;
+    width: 100px;
     height: 10%;
     left: 45%;
-    bottom: -7.5%;
+    bottom: -6.5%;
+}
+
+.tourisme-div1 .cle::after {
+    bottom: -6.5%;
 }
 
 .tourisme-chemin .bg-white {
     z-index: 3;
-    width: 70%;
+    width: 75%;
 }
 
 .chemin-texte.bg-white h2 {
@@ -371,6 +384,15 @@ a {
 }
 
 .tourisme-div2 h2 {
+    font-family: 'Palanquin Dark';
+    color:var(--break-city-blue);
+    padding: 1rem 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.tourisme-div3 img{
+    height: 100%;
+    object-fit: cover;
     padding: 3 3rem;
 }
 
