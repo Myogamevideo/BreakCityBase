@@ -461,3 +461,6 @@ footer ul {
     text-decoration: none;
 }
 
+.bg-blue {
+    background-color: var(--break-city-blue);
+}
