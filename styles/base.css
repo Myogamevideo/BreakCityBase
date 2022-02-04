@@ -429,6 +429,7 @@ a {
 .patrimoine-activite-div3 img,
 .tourisme-div3 img {
     height: 100%;
+    padding: 0 1rem;
     object-fit: cover;
 }
 
@@ -446,9 +447,14 @@ a {
     width: 100%;
     object-fit: cover;
 }
-
-@media (max-width: 768px) {
-    .cle::after {
+ 
+@media (max-width: 1400px) {
+    .activite-col {
+        height: auto;
+    }
+}
+@media (max-width: 992px) {
+    .cle::after{
         display: none;
     }
 
@@ -470,6 +476,39 @@ a {
         height: auto;
     }
 }
+    .patrimoine-activite h1 {
+        padding: 1rem;
+        text-align: center;
+        font-size: 25px;
+        color: var(--break-city-blue-dark);
+        font-weight: 700;
+        width: 100%;
+    }
+    .patrimoine-activite-chemin img {
+        position: static;
+        top: auto;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        z-index: 1;
+    }
+    .patrimoine-activite-chemin {
+        margin-top: auto;
+    }
+    .patrimoine-activite-background {
+        background-color: var(--break-city-beige);
+        z-index: 1;
+        width: 100%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        height: 100%;
+    }
+    .patrimoine-activite-chemin .pt-5 {
+        padding-top: 1rem!important;
+    }
+    .patrimoine-activite-div3 img {
+        padding: 0;
+    }
 
 /* ==========================================================================
    Footer:
