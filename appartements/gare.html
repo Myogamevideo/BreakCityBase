@@ -1,222 +1,274 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BreakCity - Index !</title>
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <title>BreakCity - Index !</title>
 
-    <!-- CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="../styles/base.css" type="text/css" media="all">
-    <link href="./styles/default-skin.css" rel="stylesheet" type="text/css">
-    <link href="./styles/photoswipe.css" rel="stylesheet" type="text/css">
-</head>
+        <!-- CSS -->
+        <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+              integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+              rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" rel="stylesheet">
+        <link href="../styles/base.css" media="all" rel="stylesheet" type="text/css">
+        <link href="../styles/default-skin/default-skin.css" rel="stylesheet" type="text/css">
+        <link href="../styles/photoswipe.css" rel="stylesheet" type="text/css">
+    </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light fw-bold bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img alt="logo" height="80" src="../assets/images/logo-cle-beige.png">
-                </a>
-                <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-                        class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"
-                        type="button">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav w-100 mb-2 mb-lg-0 d-flex justify-content-end">
-                        <li class="nav-item">
-                            <a aria-current="page" class="nav-link" href="../index.html">Accueil</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="../appartements.html">
-                                Appartements
-                            </a>
-                            <div aria-labelledby="navbarDropdown" class="dropdown-menu">
-                                <a class="dropdown-item" href="../appartements/gare.html">
-                                    Le Break City Gare
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light fw-bold bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img alt="logo" height="80" src="../assets/images/logo-cle-beige.png">
+                    </a>
+                    <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                            class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"
+                            type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav w-100 mb-2 mb-lg-0 d-flex justify-content-end">
+                            <li class="nav-item">
+                                <a aria-current="page" class="nav-link" href="../index.html">Accueil</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active dropdown-toggle" href="../appartements.html">
+                                    Appartements
                                 </a>
-                                <a class="dropdown-item" href="../appartements/royat.html">
-                                    Le Break City Royat
+                                <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+                                    <a class="dropdown-item" href="../appartements/gare.html">
+                                        Le Break City Gare
+                                    </a>
+                                    <a class="dropdown-item" href="../appartements/royat.html">
+                                        Le Break City Royat
+                                    </a>
+                                    <a class="dropdown-item" href="../appartements/oradou.html">
+                                        Le break City Oradou
+                                    </a>
+                                    <a class="dropdown-item" href="../appartements/chu.html">
+                                        Le break City CHU</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../tourisme.html">Tourisme</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item booked">
+                                <a class="nav-link" href="#">
+                                    Réserver
                                 </a>
-                                <a class="dropdown-item" href="../appartements/oradou.html">
-                                    Le break City Oradou
-                                </a>
-                                <a class="dropdown-item" href="../appartements/chu.html">
-                                    Le break City CHU</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../tourisme.html">Tourisme</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item booked">
-                            <a class="nav-link" href="#">
-                                Réserver
-                            </a>
-                        </li>
-                    </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section>
+            <div class="col-12">
+                <div class="card-group" data-slider data-gallery id="slider">
+                    <div>
+                        <a data-gallery-item="[600,450]" href="../assets/appartement-gare/gare.jpg" target="_blank">
+                            <img alt="gare" class="d-block w-100" src="../assets/appartement-gare/gare.jpg">
+                        </a>
+                    </div>
+                    <div>
+                        <a data-gallery-item="[3182,4781]" href="../assets/appartement-gare/salle-bain-gare.jpg"
+                           target="_blank">
+                            <img alt="gare" class="d-block w-100" src="../assets/appartement-gare/salle-bain-gare.jpg">
+                        </a>
+                    </div>
+                    <div>
+                        <a data-gallery-item="[3269,3204]" href="../assets/appartement-gare/salon-2-gare.jpg"
+                           target="_blank">
+                            <img alt="gare" class="d-block w-100" src="../assets/appartement-gare/salon-2-gare.jpg">
+                        </a>
+                    </div>
+                    <div>
+                        <a data-gallery-item="[4928,3280]" href="../assets/appartement-gare/salon-gare.jpg" target="_blank">
+                            <img alt="gare" class="d-block w-100" src="../assets/appartement-gare/salon-gare.jpg">
+                        </a>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </header>
+        </section>
 
-    <section id="gallery">
-        <div data-gallery class="container">
-            <div>
-                <a href="../assets/appartement-gare/gare.jpg" target="_blank" data-gallery-item="[600,450]">
-                    <img src="../assets/appartement-gare/gare.jpg" alt="gare">
-                </a>
+        <section id="gallery">
+            <div class="container" data-gallery>
+                <div>
+                    <a data-gallery-item="[600,450]" href="../assets/appartement-gare/gare.jpg" target="_blank">
+                        <img alt="gare" class="img-fluid" src="../assets/appartement-gare/gare.jpg">
+                    </a>
+                </div>
+                <div>
+                    <a data-gallery-item="[4928,3280]" href="../assets/appartement-gare/salon-gare.jpg" target="_blank">
+                        <img alt="gare" class="img-fluid" src="../assets/appartement-gare/salon-gare.jpg">
+                    </a>
+                </div>
+                <div>
+                    <a data-gallery-item="[3269,3204]" href="../assets/appartement-gare/salon-2-gare.jpg"
+                       target="_blank">
+                        <img alt="gare" class="img-fluid" src="../assets/appartement-gare/salon-2-gare.jpg">
+                    </a>
+                </div>
+                <div>
+                    <a data-gallery-item="[3182,4781]" href="../assets/appartement-gare/salle-bain-gare.jpg"
+                       target="_blank">
+                        <img alt="gare" class="img-fluid" src="../assets/appartement-gare/salle-bain-gare.jpg">
+                    </a>
+                </div>
+
+                <button class="btn" data-gallery-opener type="button">Voir plus de photos</button>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Root element of PhotoSwipe. Must have class pswp. -->
-    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Root element of PhotoSwipe. Must have class pswp. -->
+        <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
 
-        <!-- Background of PhotoSwipe. 
-	         It's a separate element, as animating opacity is faster than rgba(). -->
-        <div class="pswp__bg"></div>
+            <!-- Background of PhotoSwipe.
+                 It's a separate element, as animating opacity is faster than rgba(). -->
+            <div class="pswp__bg"></div>
 
-        <!-- Slides wrapper with overflow:hidden. -->
-        <div class="pswp__scroll-wrap">
+            <!-- Slides wrapper with overflow:hidden. -->
+            <div class="pswp__scroll-wrap">
 
-            <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-            <div class="pswp__container">
-                <!-- don't modify these 3 pswp__item elements, data is added later on -->
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
+                <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+                <div class="pswp__container">
+                    <!-- don't modify these 3 pswp__item elements, data is added later on -->
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                </div>
 
-            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-            <div class="pswp__ui pswp__ui--hidden">
+                <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+                <div class="pswp__ui pswp__ui--hidden">
 
-                <div class="pswp__top-bar">
+                    <div class="pswp__top-bar">
 
-                    <!--  Controls are self-explanatory. Order can be changed. -->
+                        <!--  Controls are self-explanatory. Order can be changed. -->
 
-                    <div class="pswp__counter"></div>
+                        <div class="pswp__counter"></div>
 
-                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
 
-                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                        <button class="pswp__button pswp__button--share" title="Share"></button>
 
-                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
 
-                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
 
-                    <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
-                    <!-- element will get class pswp__preloader--active when preloader is running -->
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
+                        <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                        <!-- element will get class pswp__preloader--active when preloader is running -->
+                        <div class="pswp__preloader">
+                            <div class="pswp__preloader__icn">
+                                <div class="pswp__preloader__cut">
+                                    <div class="pswp__preloader__donut"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div>
+                    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                        <div class="pswp__share-tooltip"></div>
+                    </div>
 
-                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
 
-                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
 
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
+                    <div class="pswp__caption">
+                        <div class="pswp__caption__center"></div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    
-    <footer class="pt-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="footer-contact-list">
-                        <div class="text-blue d-flex footer-contact-item">
-                            <i class="fas fa-map-marked-alt"></i>
-                            <span>
+
+        <footer class="pt-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-contact-list">
+                            <div class="text-blue d-flex footer-contact-item">
+                                <i class="fas fa-map-marked-alt"></i>
+                                <span>
                                 BreakCity
                                 <br>
                                 Clermont-Ferrand
                             </span>
-                        </div>
-                        <div class="text-blue d-flex footer-contact-item">
-                            <i class="fas fa-phone-alt"></i>
-                            +33 7 49 09 72 48
-                        </div>
-                        <div class="text-blue d-flex footer-contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <a href="mailto:contact@break-city.fr">
-                                contact@break-city.fr
-                            </a>
+                            </div>
+                            <div class="text-blue d-flex footer-contact-item">
+                                <i class="fas fa-phone-alt"></i>
+                                +33 7 49 09 72 48
+                            </div>
+                            <div class="text-blue d-flex footer-contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:contact@break-city.fr">
+                                    contact@break-city.fr
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="row">
-                        <div class="col-10">
-                            <img alt="break City" class="footer-logo"
-                                 src="../assets/images/logo-cle-blanche-footer.png" title="break City">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-10">
+                                <img alt="break City" class="footer-logo"
+                                     src="../assets/images/logo-cle-blanche-footer.png" title="break City">
 
-                            <div class="row mt-4">
-                                <div class="col-6 d-flex justify-content-center p-0">
-                                    <a class="btn btn-break-city" href="../contact.html">
-                                        Réserver
-                                    </a>
-                                </div>
-                                <div class="col-6 d-flex justify-content-center p-0">
-                                    <a class="btn btn-break-city-dark" href="../contact.html">
-                                        Contact
-                                    </a>
+                                <div class="row mt-4">
+                                    <div class="col-6 d-flex justify-content-center p-0">
+                                        <a class="btn btn-break-city" href="../contact.html">
+                                            Réserver
+                                        </a>
+                                    </div>
+                                    <div class="col-6 d-flex justify-content-center p-0">
+                                        <a class="btn btn-break-city-dark" href="../contact.html">
+                                            Contact
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="row justify-content-center">
-                        <h3 class="footer-nav-title pl-5 mb-4">Navigation</h3>
-                    </div>
-                    <div class="row">
-                        <ul>
-                            <li><a href="../index.html">Accueil</a></li>
-                            <li><a href="../appartements.html">Appartements</a></li>
-                            <li><a href="../contact.html">Contact</a></li>
-                        </ul>
+                    <div class="col-md-4">
+                        <div class="row justify-content-center">
+                            <h3 class="footer-nav-title pl-5 mb-4">Navigation</h3>
+                        </div>
+                        <div class="row">
+                            <ul>
+                                <li><a href="../index.html">Accueil</a></li>
+                                <li><a href="../appartements.html">Appartements</a></li>
+                                <li><a href="../contact.html">Contact</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-    <!-- COPYRIGHT -->
-    <section id="copyright">
-        <div class="copyright d-flex justify-content-center">
-            Copyright © Drosalys 2020, tous droits réservés &dash; <a class="mx-1"
-                                                                      href="../mentions-legales.html">Mentions
-            légales</a> | <span class="mx-1 cursor-pointer" id="rgpd-footer">RGPD</span>
-        </div>
-    </section>
+        <!-- COPYRIGHT -->
+        <section id="copyright">
+            <div class="copyright d-flex justify-content-center">
+                Copyright © Drosalys 2020, tous droits réservés &dash; <a class="mx-1"
+                                                                          href="../mentions-legales.html">Mentions
+                légales</a> | <span class="mx-1 cursor-pointer" id="rgpd-footer">RGPD</span>
+            </div>
+        </section>
 
-    <!-- JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous">
-    </script>
-    <script src="scripts/photoswipe.min.js"></script>
-    <script src="scripts/photoswipe-ui-default.min.js"></script>
-    <script src="scripts/gallery.js"></script>
-</body>
+        <!-- JS -->
+        <script crossorigin="anonymous"
+                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+        <script src="../scripts/slider.js"></script>
+        <script src="../scripts/photoswipe.min.js"></script>
+        <script src="../scripts/photoswipe-ui-default.min.js"></script>
+        <script src="../scripts/gallery.js"></script>
+    </body>
 
 </html>
