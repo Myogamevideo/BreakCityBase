@@ -597,3 +597,10 @@ footer ul {
     background-image: unset;
     left: -25px;
 }
+
+.fond-contact input,.fond-contact textarea{
+    border-radius: 10px;
+}
+.btn {
+    filter: url(#dilate);
+}
