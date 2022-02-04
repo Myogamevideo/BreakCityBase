@@ -95,7 +95,7 @@ a {
     display: flex;
     justify-content: right;
     text-align: right;
-    
+
 }
 
 .img-Puy-De-Dome {
@@ -124,19 +124,19 @@ a {
     margin: 1rem;
     padding: 1rem;
     display: column;
-    }
-  
- .photo-section-1 img {
-object-fit: cover;
- }   
+}
 
- .container-button {
-     justify-content: center;
-     display: flex;
-     margin-bottom: 3rem;
-     
- }
-    
+.photo-section-1 img {
+    object-fit: cover;
+}
+
+.container-button {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 3rem;
+
+}
+
 .tourisme-main {
     background-image: url(../assets/images/puy-de-dome-pariou.jpg);
     background-position: 50%;
@@ -365,6 +365,7 @@ a {
 .text-center {
     color: #2d3f63;
 }
+
 .fond-contact {
     background-color: #697990;
 }
@@ -380,12 +381,12 @@ a {
 
 .tourisme-div2 h2 {
     font-family: 'Palanquin Dark';
-    color:var(--break-city-blue);
+    color: var(--break-city-blue);
     padding: 1rem 3rem;
     margin-bottom: 0.5rem;
 }
 
-.tourisme-div3 img{
+.tourisme-div3 img {
     height: 100%;
     object-fit: cover;
     padding: 3 3rem;
@@ -463,4 +464,46 @@ footer ul {
 
 .bg-blue {
     background-color: var(--break-city-blue);
+}
+
+.widget-bottom ul {
+    list-style: none;
+}
+
+.widget-bottom .equip li::before {
+    width: 20px;
+    height: 20px;
+    top: 15%;
+    left: -25px;
+    content: "";
+    position: absolute;
+    background: url(../assets/svg/puces.svg);
+}
+
+.widget-bottom ul li {
+    position: relative;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
+.widget-bottom h2 {
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 600;
+}
+
+.appart {
+    padding-bottom: 1rem;
+}
+
+.widget-bottom .appart li::before {
+    position: absolute;
+    content: "\f00c";
+    color: #2d3f63;
+    font-family: Font Awesome\ 5 Free;
+    background-repeat: no-repeat;
+    background-image: unset;
+    left: -25px;
 }
