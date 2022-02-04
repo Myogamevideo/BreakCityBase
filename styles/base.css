@@ -137,7 +137,7 @@ object-fit: cover;
      
  }
     
-.tourisme-main {
+.patrimoine-activite {
     background-image: url(../assets/images/puy-de-dome-pariou.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
@@ -145,7 +145,7 @@ object-fit: cover;
     margin-bottom: 5rem;
 }
 
-.tourisme-main h1 {
+.patrimoine-activite h1 {
     padding: 2rem;
     text-align: center;
     color: var(--break-city-blue-dark);
@@ -154,7 +154,7 @@ object-fit: cover;
     width: 100%;
 }
 
-.intro-redirection a {
+.patrimoine-activite-redirection a {
     color: var(--break-city-blue-dark);
     font-family: 'Palanquin Dark';
     font-size: 1.2rem;
@@ -291,27 +291,27 @@ a {
     margin-bottom: 1rem;
 }
 
-.tourisme-chemin {
+.patrimoine-activite-chemin {
     margin-top: 360px;
 }
 
-.tourisme-chemin img {
+.patrimoine-activite-chemin img {
     position: absolute;
     top: -375px;
-    width: 85%;
+    width: 90%;
     object-fit: cover;
     height: 500px;
     z-index: 1;
 }
 
-.chemin-background {
+.patrimoine-activite-background {
     background-color: var(--break-city-beige);
     z-index: 1;
-    width: 100%;
+    width: 95%;
     padding-bottom: 3rem
 }
 
-.chemin-texte {
+.patrimoine-activite-texte {
     top: 10%;
     margin-left: 3rem;
     margin-right: 3rem;
@@ -333,23 +333,24 @@ a {
     bottom: -6.5%;
 }
 
-.tourisme-div1 .cle::after {
-    bottom: -6.5%;
+.patrimoine-activite-div1 .cle::after {
+    bottom: -8.65%;
+    left: 40%;
 }
 
-.tourisme-chemin .bg-white {
+.patrimoine-activite-chemin .bg-white {
     z-index: 3;
-    width: 75%;
+    width: 80%;
 }
 
-.chemin-texte.bg-white h2 {
+.patrimoine-activite-chemin .bg-white h2 {
     font-family: 'Palanquin Dark';
     color: var(--break-city-blue);
     padding: 3rem 1rem;
     margin-bottom: 0.5rem;
 }
 
-.chemin-texte.bg-white p {
+.patrimoine-activite.bg-white p {
     padding: 0 2rem;
     margin-bottom: 1rem;
 }
@@ -369,26 +370,25 @@ a {
     background-color: #697990;
 }
 
-.tourisme-div1 {
+.patrimoine-activite-div1 {
     padding: 3rem 5rem;
     background-color: var(--break-city-blue);
 }
 
-.tourisme-div2 {
+.patrimoine-activite-div2 {
     padding: 3rem;
 }
 
-.tourisme-div2 h2 {
+.patrimoine-activite-div2 h2 {
     font-family: 'Palanquin Dark';
     color:var(--break-city-blue);
     padding: 1rem 3rem;
     margin-bottom: 0.5rem;
 }
 
-.tourisme-div3 img{
+.patrimoine-activite-div3 img{
     height: 100%;
     object-fit: cover;
-    padding: 3 3rem;
 }
 
 .appartements .container {
