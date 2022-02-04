@@ -401,6 +401,117 @@ a {
     object-fit: cover;
 }
 
+.titre-first-section {
+    color: var(--break-city-blue-dark);
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text-first-section {
+    color: var(--break-city-blue-dark);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.background-decouverte-appartement {
+    background-color: var(--break-city-blue);
+    color: var(--break-city-blue-dark);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.boutton-decouverte-appartement {
+    color: var(--break-city-beige)
+}
+
+.cards-second-section {
+    background: var(--break-city-beige)
+}
+
+.first-card {
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.background-first-card {
+    color: #6B7B92;
+    font-size: 60px
+}
+
+.second-card {
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.background-second-card {
+    background: var(--break-city-beige)
+}
+
+.third-card {
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.background-third-card {
+    background: var(--break-city-beige)
+}
+
+.background-boutton-reserver {
+    background-color: var(--break-city-blue)
+}
+
+.boutton-reservation {
+    background-color: var(--break-city-beige);
+    color: var(--break-city-blue-dark);
+    border-radius: 5px;
+    font-weight: 700;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.padding-boutton-reserver {
+    padding: 1rem 2rem
+}
+
+.third-section-image {
+    position: relative;
+    display: block;
+}
+
+.image-card-third-section {
+    vertical-align: left;
+    object-fit: cover;
+}
+
+.column-third-section-index {
+    background-color: var(--break-city-blue);
+}
+
+.second-column-third-section-index {
+    color: var(--break-city-blue-dark)
+}
+
+.second-column-third-section-index-image {
+    color: var(--break-city-blue-dark);
+    width: 200px;
+    display: block;
+}
+
+.first-column-third-section-index-text {
+    color: var(--break-city-beige);
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.second-column-third-section-index-text {
+    background-color: var(--break-city-blue-dark);
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
 .boutton-appartement {
     position: absolute;
     top: 470px;
@@ -413,6 +524,7 @@ a {
         width: 100%;
     }
 }
+
 /* ==========================================================================
    Footer:
    ========================================================================== */
