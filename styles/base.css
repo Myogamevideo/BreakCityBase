@@ -597,3 +597,38 @@ footer ul {
     background-image: unset;
     left: -25px;
 }
+
+.reservation .title {
+    background-size: cover;
+    padding: 3.5rem;
+}
+
+.reservation img {
+    width: 250px;
+}
+
+.reservation .im1 {
+    position: absolute;
+    left: -35px;
+}
+
+.reservation .im2 {
+    position: absolute;
+    bottom: -130px;
+    left: -115px;
+}
+
+.reservation .im3 {
+    position: absolute;
+    bottom: -95px;
+    right: -185px;
+}
+
+.reservation .im4 {
+    position: absolute;
+    bottom: -200px;
+}
+
+.reservation .imm5 {
+    position: absolute;
+}
