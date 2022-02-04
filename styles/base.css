@@ -461,3 +461,12 @@ footer ul {
 #copyright .copyright a {
     text-decoration: none;
 }
+
+@media screen and (max-width: 900px) {
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
