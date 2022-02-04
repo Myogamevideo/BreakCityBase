@@ -353,9 +353,14 @@ a {
     color: #2d3f63;
 }
 .fond-contact {
-    background-color: #697990;
+    width: 70%
+    ;
 }
 
+.formu-contact .container {
+    background-color: #697990;
+
+}
 .tourisme-div1 {
     padding: 3rem 5rem;
     background-color: var(--break-city-blue);
