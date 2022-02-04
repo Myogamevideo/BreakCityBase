@@ -352,6 +352,10 @@ a {
     bottom: -6.75%;
 }
 
+.activite-col.cle::after {
+    bottom: -7.5%;
+}
+
 .patrimoine-activite-chemin .bg-white {
     z-index: 3;
     width: 80%;
@@ -391,6 +395,10 @@ a {
 
 .patrimoine-activite-div2 {
     padding: 3rem;
+}
+
+.activite-col {
+    height: 60%;
 }
 
 .patrimoine-activite-div2 h2 {
