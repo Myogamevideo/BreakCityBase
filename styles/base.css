@@ -137,7 +137,18 @@ a {
 
 }
 
-.tourisme-main {
+.photo-section-1 img {
+    object-fit: cover;
+}
+
+.container-button {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 3rem;
+
+}
+
+.patrimoine-activite {
     background-image: url(../assets/images/puy-de-dome-pariou.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
@@ -145,7 +156,7 @@ a {
     margin-bottom: 5rem;
 }
 
-.tourisme-main h1 {
+.patrimoine-activite h1 {
     padding: 2rem;
     text-align: center;
     color: var(--break-city-blue-dark);
@@ -154,7 +165,7 @@ a {
     width: 100%;
 }
 
-.intro-redirection a {
+.patrimoine-activite-redirection a {
     color: var(--break-city-blue-dark);
     font-family: 'Palanquin Dark';
     font-size: 1.2rem;
@@ -291,30 +302,35 @@ a {
     margin-bottom: 1rem;
 }
 
-.tourisme-chemin {
+.patrimoine-activite-chemin {
     margin-top: 360px;
 }
 
-.tourisme-chemin img {
+.patrimoine-activite-chemin img {
     position: absolute;
     top: -375px;
-    width: 85%;
+    width: 90%;
     object-fit: cover;
     height: 500px;
     z-index: 1;
 }
 
-.chemin-background {
+.patrimoine-activite-background {
     background-color: var(--break-city-beige);
     z-index: 1;
-    width: 100%;
+    width: 95%;
     padding-bottom: 3rem
 }
 
-.chemin-texte {
+.patrimoine-texte, .activite-texte {
     top: 10%;
+    padding: 0 3rem;
     margin-left: 3rem;
     margin-right: 3rem;
+}
+
+.activite-background {
+    padding-bottom: 5rem;
 }
 
 .cle {
@@ -333,23 +349,37 @@ a {
     bottom: -6.5%;
 }
 
-.tourisme-div1 .cle::after {
-    bottom: -6.5%;
+.patrimoine-activite-div1 .cle::after {
+    bottom: -8.65%;
+    left: 40%;
 }
 
-.tourisme-chemin .bg-white {
+.patrimoine-activite-background .cle::after {
+    bottom: -8.25%;
+    left: 45%;
+}
+
+.patrimoine-texte.cle::after {
+    bottom: -6.75%;
+}
+
+.activite-col.cle::after {
+    bottom: -7.5%;
+}
+
+.patrimoine-activite-chemin .bg-white {
     z-index: 3;
-    width: 75%;
+    width: 80%;
 }
 
-.chemin-texte.bg-white h2 {
+.patrimoine-activite-chemin .bg-white h2 {
     font-family: 'Palanquin Dark';
     color: var(--break-city-blue);
     padding: 3rem 1rem;
     margin-bottom: 0.5rem;
 }
 
-.chemin-texte.bg-white p {
+.patrimoine-activite.bg-white p {
     padding: 0 2rem;
     margin-bottom: 1rem;
 }
@@ -375,26 +405,35 @@ a {
 
 }
 
-.tourisme-div1 {
+.patrimoine-activite-div1 {
     padding: 3rem 5rem;
     background-color: var(--break-city-blue);
 }
 
-.tourisme-div2 {
+.patrimoine-activite-div2 {
     padding: 3rem;
 }
 
-.tourisme-div2 h2 {
+.activite-col {
+    height: 60%;
+}
+
+.patrimoine-activite-div2 h2 {
     font-family: 'Palanquin Dark';
     color: var(--break-city-blue);
     padding: 1rem 3rem;
     margin-bottom: 0.5rem;
 }
 
-.tourisme-div3 img {
+.patrimoine-activite-div3 img {
     height: 100%;
     object-fit: cover;
-    padding: 3 3rem;
+}
+
+.patrimoine-activite-background h3 {
+    font-size: 1.75rem;
+    font-family: "Palanquin Dark";
+    font-weight: 500;
 }
 
 .appartements .container {
@@ -404,6 +443,30 @@ a {
 .appartements img {
     width: 100%;
     object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .cle::after {
+        display: none;
+    }
+
+    .patrimoine-activite-chemin .bg-white {
+        width: 100%;
+    }
+
+    .patrimoine-texte, .activite-texte {
+        padding: 0 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .patrimoine-activite-div1 {
+        padding: 1rem 1rem;
+    }
+
+    .activite-col {
+        height: auto;
+    }
 }
 
 /* ==========================================================================
@@ -475,10 +538,10 @@ footer ul {
     resize: none;
 }
 
-.boutton-contact .btn{
+.boutton-contact .btn {
     width: 25%;
     background-color: #E8D9C5;
-    margin : 1rem;
+    margin: 1rem;
 }
 
 .boutton-contact .btn:hover {
