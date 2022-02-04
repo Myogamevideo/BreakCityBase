@@ -475,7 +475,7 @@ a {
     .activite-col {
         height: auto;
     }
-}
+
     .patrimoine-activite h1 {
         padding: 1rem;
         text-align: center;
@@ -509,7 +509,7 @@ a {
     .patrimoine-activite-div3 img {
         padding: 0;
     }
-
+}
 /* ==========================================================================
    Footer:
    ========================================================================== */
