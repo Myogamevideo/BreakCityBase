@@ -311,10 +311,15 @@ a {
     padding-bottom: 3rem
 }
 
-.patrimoine-activite-texte {
+.patrimoine-texte, .activite-texte {
     top: 10%;
+    padding: 0 3rem;
     margin-left: 3rem;
     margin-right: 3rem;
+}
+
+.activite-background {
+    padding-bottom: 5rem;
 }
 
 .cle {
@@ -336,6 +341,15 @@ a {
 .patrimoine-activite-div1 .cle::after {
     bottom: -8.65%;
     left: 40%;
+}
+
+.patrimoine-activite-background .cle::after {
+    bottom: -8.25%;
+    left: 45%;
+}
+
+.patrimoine-texte.cle::after{
+    bottom: -6.75%;
 }
 
 .patrimoine-activite-chemin .bg-white {
@@ -389,6 +403,12 @@ a {
 .patrimoine-activite-div3 img{
     height: 100%;
     object-fit: cover;
+}
+
+.patrimoine-activite-background h3 {
+    font-size: 1.75rem;
+    font-family: "Palanquin Dark";
+    font-weight: 500;
 }
 
 .appartements .container {
