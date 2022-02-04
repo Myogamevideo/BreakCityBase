@@ -72,51 +72,64 @@
         </div>
     </section>
     <section>
-        <div class="container contact-section pt-5 pb-5">
+        <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-7 bg-white p-3">
-                    <h2 class="text-center"> Nous contacter</h2>
-                    <p class="text-center">N'hésitez pas à nous contacter pour en savoir plus sur nos hébergements et
-                        connaître leur disponibilité.</p>
-                </div>
-                <div class="col-lg-3 img-contact justify-content-center align-items-center d-flex">
-                    <img class="" src="./assets/picto/serrure.png" alt="Appartement Royat" title="Appartement Royat">
+                <div class=" contact-section pt-5 pb-5 col-10">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-7 bg-white p-3">
+                            <h2 class="text-center"> Nous contacter</h2>
+                            <p class="text-center">N'hésitez pas à nous contacter pour en savoir plus sur nos
+                                hébergements
+                                et
+                                connaître leur disponibilité.</p>
+                        </div>
+                        <div class="col-lg-3 img-contact justify-content-center align-items-center d-flex">
+                            <img class="" src="./assets/picto/serrure.png" alt="Appartement Royat"
+                                title="Appartement Royat">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
     </section>
     <section class="formu-contact">
-        <div class="container">
+        <div class="container ">
             <div class="row justify-content-center">
-                <div class="fond-contact">
-                    <div class="div-input">
-                        <p>Nom
-                            <input type="nom">
-                        </p>
-                        <p>
-                            Telephone
-                            <input type="telephone">
-                        </p>
-                    </div>
-                    <div>
-                        <p>Objet
-                            <input type="Objet">
-                        <p> E-mail
-                            <input type="E-mail">
-                        </p>
-                        </p>
-                    </div>
-                    <div>
-                        <p>Message
-                            <input type="Message">
-                        </p>
-                    </div>
-                    <div>
-                        <button>
-                            envoyer
-                        </button>
-                    </div>
+                <div class="row justify-content-center col-10 formu2">
+                    <form class="fond-contact">
+                        <div class="div-input">
+                            <p class="col-6 d-flex flex-column p-3">
+                                <span>Nom</span>
+                                <input type="text" name="nom">
+                            </p>
+                            <p class="col-6 d-flex flex-column p-3">
+                                <span>Telephone</span>
+                                <input type="text" name="telephone">
+                            </p>
+                        </div>
+                        <div class="div-input">
+                            <p class="col-6 d-flex flex-column p-3">
+                                <span>Objet</span>
+                                <input type="text" name="Objet">
+                            </p>
+                            <p class="col-6 d-flex flex-column p-3">
+                                <span>E-mail</span>
+                                <input type="email" name="E-mail">
+                            </p>
+                        </div>
+                        <div class="div-input col-12">
+                            <p class="col-12 p-3 d-flex flex-column">
+                                <span>Message</span>
+                                <textarea class="textera-contact" rows="5">Vous pouvez écrire ici.</textarea>
+                            </p>
+                        </div>
+                        <div class="boutton-contact row justify-content-center">
+                            <button class="btn">
+                                Envoyer
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
